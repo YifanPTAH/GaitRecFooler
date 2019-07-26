@@ -7,5 +7,5 @@ GaitRecognizer are modified from GaitRecognitionCNN: https://github.com/nephashi
 
 ## Result of Experiment
 ### Source image
-![Test Image 1](https://github.com/YifanPTAH/GaitRecFooler/input/experiment-1/source/013-nm-04-090.png)
+![Test Image 1](https://github.com/YifanPTAH/GaitRecFooler/blob/master/input/experiment-1/source/013-nm-04-090.png)
 
