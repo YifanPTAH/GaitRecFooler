@@ -16,7 +16,7 @@ GaitRecognizer output: 13
 
 GaitRecognizer output: 75
 
-### Created Adversarial Example and Added Noise
+### Created Adversarial Example(GEI and Sihouette) and Added Noise
 ![image 4](https://github.com/YifanPTAH/GaitRecFooler/blob/master/output/experiment-1/gei/fake-gait-gei.png)
 ![image 5](https://github.com/YifanPTAH/GaitRecFooler/blob/master/output/experiment-1/gif/fake.gif)
 ![image 6](https://github.com/YifanPTAH/GaitRecFooler/blob/master/output/experiment-1/noise/noise.png)
