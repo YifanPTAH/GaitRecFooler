@@ -18,7 +18,8 @@ GaitRecognizer output: 75
 
 ### Created Adversarial Example and Added Noise
 ![image 4](https://github.com/YifanPTAH/GaitRecFooler/blob/master/output/experiment-1/gei/fake-gait-gei.png)
-![image 5](https://github.com/YifanPTAH/GaitRecFooler/blob/master/output/experiment-1/gif/fake.gif)
+![image 5]()
+![image 6]()
 
 GaitRecognizer output: 75
 
