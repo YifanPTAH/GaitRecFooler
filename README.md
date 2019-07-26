@@ -9,6 +9,10 @@ GaitRecognizer are modified from GaitRecognitionCNN: https://github.com/nephashi
 ### Source image-GEI
 ![Image 1](https://github.com/YifanPTAH/GaitRecFooler/blob/master/input/experiment-1/source/013-nm-04-090.png)
 ### Source image-silhouette
-![Image 2]()
+![Image 2](https://github.com/YifanPTAH/GaitRecFooler/blob/master/input/experiment-1/gif/source.gif)
+GaitRecognizer output: 13
+### target image
+![Image 3]()
+
 
 
