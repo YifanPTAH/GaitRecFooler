@@ -13,7 +13,16 @@ GaitRecognizer are modified from GaitRecognitionCNN: https://github.com/nephashi
 
 GaitRecognizer output: 13
 ### target image
-![Image 3]()
+![Image 3](https://github.com/YifanPTAH/GaitRecFooler/blob/master/input/experiment-1/target/075-nm-04-090.png)
+
+GaitRecognizer output: 75
+
+### Created Adversarial Example
+![image 4](https://github.com/YifanPTAH/GaitRecFooler/blob/master/output/experiment-1/gei/fake-gait-gei.png)
+![image 5](https://github.com/YifanPTAH/GaitRecFooler/blob/master/output/experiment-1/gif/fake.gif)
+
+GaitRecognizer output: 75
+
 
 
 
