@@ -1,0 +1,389 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.7.19)  29 JUL 2019 22:51
+entering extended mode
+**"./Deep Learning Project Proposal Team 1.tex"
+("Deep Learning Project Proposal Team 1.tex"
+LaTeX2e <2018-12-01>
+("D:\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("D:\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (aaai19.sty
+Conference Style for AAAI for LaTeX 2e -- version for the AAAI-19 conference
+\titlebox=\skip43
+) ("D:\MiKTeX 2.9\tex/latex/psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("D:\MiKTeX 2.9\tex/latex/psnfss\helvet.sty"
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+
+("D:\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+("D:\MiKTeX 2.9\tex/latex/psnfss\courier.sty"
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+("D:\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("D:\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks15
+\float@box=\box27
+\@float@everytoks=\toks16
+\@floatcapt=\box28
+)
+("D:\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("D:\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("D:\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("D:\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+("D:\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("D:\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen105
+))
+("D:\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+("D:\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip11
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks18
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks19
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks20
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("D:\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip47
+\thm@postskip=\skip48
+\thm@headsep=\skip49
+\dth@everypar=\toks27
+)
+("Deep Learning Project Proposal Team 1.aux"
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+
+LaTeX Warning: Label `fig2' multiply defined.
+
+)
+\openout1 = `"Deep Learning Project Proposal Team 1.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 98.
+ ("D:\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+("D:\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen114
+\scratchbox=\box31
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen115
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks29
+) ("D:\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("D:\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("D:\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("D:\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("D:\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("D:\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("D:\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("D:\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("D:\MiKTeX 2.9\tex/generic/oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("D:\MiKTeX 2.9\tex/generic/oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("D:\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 101.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 101.
+
+
+("D:\MiKTeX 2.9\tex/latex/psnfss\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 101.
+
+
+("D:\MiKTeX 2.9\tex/latex/psnfss\omspcr.fd"
+File: omspcr.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 101.
+
+
+("D:\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 103.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+<dl4.png, id=1, 1013.7875pt x 527.9725pt>
+File: dl4.png Graphic file (type png)
+<use dl4.png>
+Package pdftex.def Info: dl4.png  used on input line 120.
+(pdftex.def)             Requested size: 404.71353pt x 210.76633pt.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+ [1{C:/Users/xuyif/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+]
+Underfull \hbox (badness 8056) in paragraph at lines 139--140
+[]\OT1/ptm/m/n/10 We gen-er-ate ad-ver-sar-ial ex-am-ples against sev-eral
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 147--148
+ \OT1/ptm/b/n/10 2.1. Gait Recog-ni-tion Net-works \OT1/ptm/m/n/10 The cross-vi
+ew gait
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 147--148
+\OT1/ptm/m/n/10 meth-ods can be cat-e-go-rized into three types: features-
+ []
+
+<dl1.png, id=12, 140.525pt x 140.525pt>
+File: dl1.png Graphic file (type png)
+<use dl1.png>
+Package pdftex.def Info: dl1.png  used on input line 157.
+(pdftex.def)             Requested size: 143.63808pt x 143.64664pt.
+<dl2.png, id=13, 140.525pt x 140.525pt>
+File: dl2.png Graphic file (type png)
+<use dl2.png>
+Package pdftex.def Info: dl2.png  used on input line 164.
+(pdftex.def)             Requested size: 143.63808pt x 143.64664pt.
+<dl3.png, id=14, 140.525pt x 140.525pt>
+File: dl3.png Graphic file (type png)
+<use dl3.png>
+Package pdftex.def Info: dl3.png  used on input line 171.
+(pdftex.def)             Requested size: 143.63808pt x 143.64664pt.
+<dlnoise.png, id=15, 140.525pt x 140.525pt>
+File: dlnoise.png Graphic file (type png)
+<use dlnoise.png>
+Package pdftex.def Info: dlnoise.png  used on input line 178.
+(pdftex.def)             Requested size: 143.63808pt x 143.64664pt.
+[2 <./dl4.png>] [3 <./dl1.png (PNG copy)> <./dl2.png (PNG copy)> <./dl3.png (PN
+G copy)> <./dlnoise.png (PNG copy)>]
+File: dl1.png Graphic file (type png)
+<use dl1.png>
+Package pdftex.def Info: dl1.png  used on input line 219.
+(pdftex.def)             Requested size: 71.81903pt x 71.81903pt.
+<ex2-source.png, id=30, 140.525pt x 140.525pt>
+File: ex2-source.png Graphic file (type png)
+<use ex2-source.png>
+Package pdftex.def Info: ex2-source.png  used on input line 220.
+(pdftex.def)             Requested size: 71.81903pt x 71.81903pt.
+File: dl2.png Graphic file (type png)
+<use dl2.png>
+Package pdftex.def Info: dl2.png  used on input line 224.
+(pdftex.def)             Requested size: 71.81903pt x 71.81903pt.
+<ex2-target.png, id=31, 140.525pt x 140.525pt>
+File: ex2-target.png Graphic file (type png)
+<use ex2-target.png>
+Package pdftex.def Info: ex2-target.png  used on input line 225.
+(pdftex.def)             Requested size: 71.81903pt x 71.81903pt.
+File: dl3.png Graphic file (type png)
+<use dl3.png>
+Package pdftex.def Info: dl3.png  used on input line 229.
+(pdftex.def)             Requested size: 71.81903pt x 71.81903pt.
+<ex2-fake.png, id=32, 140.525pt x 140.525pt>
+File: ex2-fake.png Graphic file (type png)
+<use ex2-fake.png>
+Package pdftex.def Info: ex2-fake.png  used on input line 230.
+(pdftex.def)             Requested size: 71.81903pt x 71.81903pt.
+File: dlnoise.png Graphic file (type png)
+<use dlnoise.png>
+Package pdftex.def Info: dlnoise.png  used on input line 234.
+(pdftex.def)             Requested size: 71.81903pt x 71.81903pt.
+<ex2-noise.png, id=33, 140.525pt x 140.525pt>
+File: ex2-noise.png Graphic file (type png)
+<use ex2-noise.png>
+Package pdftex.def Info: ex2-noise.png  used on input line 235.
+(pdftex.def)             Requested size: 71.81903pt x 71.81903pt.
+
+Overfull \hbox (33.35104pt too wide) in paragraph at lines 245--254
+ [][] 
+ []
+
+[4 <./ex2-source.png (PNG copy)> <./ex2-target.png (PNG copy)> <./ex2-fake.png 
+(PNG copy)> <./ex2-noise.png (PNG copy)>]
+Underfull \hbox (badness 4048) in paragraph at lines 301--302
+\OT1/ptm/m/n/10 [14] Atha-lye A, En-gstrom L, Ilyas A, et al. Syn-
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 301--302
+\OT1/ptm/m/n/10 the-siz-ing ro-bust ad-ver-sar-ial ex-am-ples[J]. arXiv preprin
+t
+ []
+
+[5
+
+] ("Deep Learning Project Proposal Team 1.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2444 strings out of 492942
+ 31927 string characters out of 3141685
+ 107245 words of memory out of 3000000
+ 6291 multiletter control sequences out of 15000+200000
+ 17650 words of font info for 37 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,10n,25p,1226b,265s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<D:/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmex10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><D
+:/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><D:/MiKTeX 2.9/fonts/type1/urw/
+times/utmb8a.pfb><D:/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><D:/MiKTeX 2.9
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Deep Learning Project Proposal Team 1.pdf" (5 pages, 288864 
+bytes).
+PDF statistics:
+ 82 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+

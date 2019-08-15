@@ -14,6 +14,9 @@
 \frenchspacing  % DO NOT CHANGE THIS
 \setlength{\pdfpagewidth}{8.5in}  % DO NOT CHANGE THIS
 \setlength{\pdfpageheight}{11in}  % DO NOT CHANGE THIS
+\usepackage{amsmath}
+\usepackage{amsthm}
+
 
 %PDF Info Is REQUIRED.
 % For /Author, add all authors within the parentheses, separated by commas. No accents or commands.
@@ -181,20 +184,75 @@ There aren’t none prior experiment on Adversarial Examples to Gait Recognition
 
 
 \subsection{3. Methods}
-Given a source image $x$, a target $v$ and a gait recognition network $f$, we are to generate an adversarial exmaple $x+r$ such that $||f(x+r)-v||$ is minimized while $||r||$ is small. To achieve this, we use gradient descend to update $r$:
-$$r_{t+1}= r_t - \epsilon sign(\nabla(||f(x+r_t)-v||))$$
-$$s.t. |||r||<\eta$$
+Most silhouette-based gait recognition networks tranform the raw input into feature vector and compare feature vectors in terms of distance or similarity metrics to predict the person identity. If we denote $x_1,...x_n$ the raw input, $f$ the gait recognition network, $g$ the distance loss function, $x$ a query input and $\hat{y} \in \{1,...n\}$ is the corresponding predicted identity, then the procedure of the gait recognition network system can be summarized as:
+$$\hat{y}=arg\min_{i}g(f(x),f(x_i)).$$
+Since neural networks are trained using backpropagation and are thereby differentiable, a practicable to generate adversarial example based on a raw input is to fix the network and use a objective function and backpropagation to update the raw input. A typical iterative method is the Fast Gradient Sign Method (FGSM) [8] which can be formulated as 
+$$\eta = \epsilon\cdot sgn(\nabla_{x}J(\theta,x,f(x))),$$
+where $\eta$ is the update to the current $x$, $\epsilon$ is the step and $J$ is a loss function taking $\theta$ as parameters.
+
+To our concern, given a source image $x$, a target $x'$ and a gait recognition network $f_{\theta}$, we are to generate an adversarial exmaple $x+r$ such that $||f_{\theta}(x+r)-f_{\theta}(x')||_2$ is minimized while $||r||_\infty$ is small. To achieve this, we use algorithm based on FGSM and $L_\infty$ norm constrain:
+\begin{equation*}
+\left\{
+\begin{array}{lr}
+r_{t+1}= r_t - \epsilon\cdot sgn(\nabla_{r_t}(||f(x+r_t)-f(x')||_2))\\
+\text{clip } \text{elements of } r_{t+1} \text{ within } [-\eta,\eta]\\
+t = t + 1\\ 
+\end{array}
+\right.
+.
+\end{equation*}
+In each iteration, we first adopt FGSM to update the $r$ on $x$, but this may cause too much modification as iterations go on. To address this issue, a clip operation is taken right after FGSM which ensure that the $L_\infty$ norm of $r$ is not larger than a given threshold $\eta$.
 
 
 
 \subsection{4. Experiments}
 
-We carry experiments on GaitCNN and CASIA-B: A large multiview gait database. Three variations, namely view angle, clothing and carrying condition changes, are separately considered.
-
- 
-
+We carry experiments on GaitCNN modified from [4]: A convolutional Neural Network for gait Recognition and CASIA-B: A large multiview gait database. Three variations, namely view angle, clothing and carrying condition changes, are separately considered. We have already conducted two experiments on normal walking datasets without carrying object from view angle of 90 degree, which is the datasets used on mostly gait recognition system. We firstly trained the GaitCNN which can reach up to accuracy of 95\% on test dataset. Then we used FGSM with the learning rate of 0.001 to train the r to change the origin image to be detected as target image by the above gait recognition system. Also, we set a threshold value of 5 unit per pixel to let the r not perturb origin image more than 5 unit per pixel, which can prevent the changes from being detected by human.
 
 \subsection{5. Results}
+From the result of experiments above, the result image: the source image, target image, fake image and added noise are in Figure 6; following the evaluation criteria of [14],  we also evaluate the origin image accuracy, fake image accuracy and $l_2$ distance between the origin image and fake image, the result are in Figure 7:
+\begin{figure}
+\centering
+
+Source Image:
+
+\includegraphics[width=0.3\columnwidth]{dl1.png}
+\includegraphics[width=0.3\columnwidth]{ex2-source.png}
+
+Target Image:
+
+\includegraphics[width=0.3\columnwidth]{dl2.png}
+\includegraphics[width=0.3\columnwidth]{ex2-target.png}
+
+Fake Image:
+
+\includegraphics[width=0.3\columnwidth]{dl3.png}
+\includegraphics[width=0.3\columnwidth]{ex2-fake.png}
+
+Added Noise:
+
+\includegraphics[width=0.3\columnwidth]{dlnoise.png}
+\includegraphics[width=0.3\columnwidth]{ex2-noise.png}
+
+\caption{Result Image}
+\label{fig2}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\caption{Evaluation}
+\label{vtable}
+\begin{tabular}{c|c|c|c}
+\hline
+$experiment$ & $Accuracy_{origin}$ & $Accuracy_{attack}$ & $l_2 distance$ \\
+\hline
+1 & 100\% & 0\% & 3.062  \\
+2 & 90\% & 0\% & 1.858 \\
+Average & 95\% & 0\% & 2.46\\ 
+\hline
+\end{tabular}
+\end{figure}
+
 
 \subsection{6.References}
 \smallskip \noindent
@@ -239,6 +297,8 @@ Security (CV-COPS 2017), 2017. 2
 \smallskip \noindent [13]Davrondzhon Gafurov, Einar Snekkenes, and Patrick Bours. Spoof attacks on gait
 authentication system. IEEE Transactions on Information Forensics and Security,
 2(3), 2007. Special Issue on Human Detection and Recognition.
+
+\smallskip \noindent [14] Athalye A, Engstrom L, Ilyas A, et al. Synthesizing robust adversarial examples[J]. arXiv preprint arXiv:1707.07397, 2017.
 
 
 \end{document}
