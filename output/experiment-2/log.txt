@@ -1,0 +1,7 @@
+input: 26
+confidence: 1.0
+output: 36
+confidence: 0.44878268.
+confidence_origin:0.432929
+GEI-noise-norm2: 0.98404442575922
+Average-frame-noise-norm2: 0.0014295624481238873

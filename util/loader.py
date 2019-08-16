@@ -24,9 +24,10 @@ def loader(input_dir):
 
     return np.array(source_image), np.array(target_image)
 
-def test_loader(input_dir, output_dir):
+def test_loader(input_dir, output_dir,target_dir):
     origin_image = []
     fake_image= []
+    target_image=[]
 
     origin_list=os.listdir(input_dir)
     for name in origin_list:
@@ -41,4 +42,11 @@ def test_loader(input_dir, output_dir):
         x3d = img_to_array(img)
         x = np.expand_dims(x3d[:, :, 0], axis=2)
         fake_image.append(x)
-    return np.array(origin_image), np.array(fake_image)
+
+    target_list=os.listdir(target_dir)
+    for name in target_list:
+        img = load_img(target_dir+'/'+name, target_size=(140,140))
+        x3d = img_to_array(img)
+        x = np.expand_dims(x3d[:,:,0],axis=2)
+        target_image.append(x)
+    return np.array(origin_image), np.array(fake_image),np.array(target_image)
